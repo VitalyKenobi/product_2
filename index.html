@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>BEM naming</title>
+	<link rel="stylesheet" href="./main.css" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@400;700&display=swap"
+		rel="stylesheet" />
+</head>
+
+<body>
+
+	<main>
+		<section class="product">
+			<div class="container">
+				<div class="product-info">
+					<div class="product-info__img">
+						<img src="./img/product-1.jpg" alt="product">
+					</div>
+					<div class="product-info-description">
+						<div class="product-info-description__title">
+							<h2>Apple MacBook Air 13</h2>
+						</div>
+						<div class="product-info-description__price">
+							<span>190 000</span>
+							<span class="product-info__description--price-size">руб.</span>
+						</div>
+						<div class="product-info__description--button"><a href="#">В корзину</a></div>
+						<div class="product-info__description--text">
+							<p>
+								Новый MacBook Air — ещё более тонкий и лёгкий, оснащён дисплеем Retina, клавиатурой
+								нового поколения, трекпадом Force Touch и технологией Touch ID, которая защищает ваши
+								данные и открывает доступ к ним только вам.
+							</p>
+							<p>
+								Это самый экологичный Mac. Для его корпуса используется только переработанный алюминий.1
+								И это невероятно удобный MacBook Air, который справится с любыми задачами.
+							</p>
+							<p>
+								<a href="#">Подробнее об особенностях и преимуществах MacBook Air.</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="product-card">
+			<div class="container">
+				<div class="product-info__description--title product-card--header">
+					<h2 class="">Смотри также</h2>
+				</div>
+
+				<div class="cards">
+
+					<!-- CARD -->
+					<div class="card">
+						<img src="./img/product-2.jpg" alt="Product" class="card__img" />
+						<h3 class="card__title">Apple iMac 27</h3>
+	
+						<div class="card__details">
+							<span class="card__price">95 000 руб.</span>
+							<a href="#" class="read-more">Смотреть</a>
+						</div>
+					</div>
+					<!-- // card -->
+	
+					<!-- CARD -->
+					<div class="card">
+						<img src="./img/product-3.jpg" alt="Product" class="card__img" />
+						<h3 class="card__title">Apple iMac 27</h3>
+	
+						<div class="card__details">
+							<span class="card__price">95 000 руб.</span>
+							<a href="#" class="read-more">Смотреть</a>
+						</div>
+					</div>
+					<!-- // card -->
+	
+					<!-- CARD -->
+					<div class="card">
+						<img src="./img/product-4.jpg" alt="Product" class="card__img" />
+						<!-- <h3 class="card__title">Apple iMac 27</h3> -->
+						<h3 class="card__title"><span>Apple iMac 27</span><span>Вторая линия названия</span></h3>
+						<!-- <p class="card__title card--mb">Вторая линия названия</p> -->
+						<div class="card__details">
+							<span class="card__price">95 000 руб.</span>
+							<a href="#" class="read-more">Смотреть</a>
+						</div>
+					</div>
+					<!-- // card -->
+				</div>
+		</section>
+	</main>
+
+</body>
+
+</html>
