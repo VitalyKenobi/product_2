@@ -1,1 +1,1 @@
-# product_2
+# product_2 Bem naming
